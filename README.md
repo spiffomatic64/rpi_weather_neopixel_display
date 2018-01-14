@@ -4,7 +4,8 @@ Displays the weather on a strip of neopixels
 Color indicates temp (blues=cold red=hot)
 BLinking indicates precipitation
 
-Example: https://i.imgur.com/sjlOBR5.jpg
+Example: 
+![Example](https://i.imgur.com/sjlOBR5.jpg)
 
 
 # Setup
