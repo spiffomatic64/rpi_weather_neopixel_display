@@ -1,5 +1,10 @@
 # rpi_weather_neopixel_display
 Displays the weather on a strip of neopixels
+48 hours in the future, across 30 leds
+Color indicates temp (blues=cold red=hot)
+BLinking indicates precipitation
+
+Example: https://i.imgur.com/sjlOBR5.jpg
 
 
 # Setup
@@ -15,4 +20,13 @@ scons
 cd python
 sudo python setup.py install
 
+# Install Python libraries
 
+apt-get install python-pip
+pip install python-forecastio
+
+
+Wiring instructions:
+https://learn.adafruit.com/neopixels-on-raspberry-pi/overview
+
+Using the 74AHCT125 
