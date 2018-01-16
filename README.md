@@ -31,3 +31,9 @@ Wiring instructions:
 https://learn.adafruit.com/neopixels-on-raspberry-pi/overview
 
 Using the 74AHCT125 
+
+
+# To run on boot
+Throw this in your rc.local:
+
+/usr/bin/python /root/weather.py &> /root/error.log &
